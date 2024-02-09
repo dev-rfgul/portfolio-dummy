@@ -1,0 +1,184 @@
+
+   
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    body{
+        background-color: rgb(0, 0, 0);
+        color: white;
+        font-family: 'Poppins', sans-serif;
+ 
+    }
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: rgb(18, 18, 62);
+        height: 80px ;
+    }
+    nav ul{
+        display: flex;
+        justify-content: center;
+    }
+    nav ul li{
+        list-style: none;
+        margin: 0px 23px ;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: white;
+    }
+    nav ul li a:hover{
+        font-size: 1.04rem;
+        color: rgb(178, 178, 231);
+        
+    }
+    .left{
+        font-size: 1.5rem;
+    }
+
+    .firstSection{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 130px 0px ;
+    }
+    .firstSection > div{
+        width: 30%;
+
+        
+    }
+    .leftSection{
+        font-size: 2rem;
+}
+
+    .leftSection .btn{
+        padding: 15px 16px;
+        margin: 21px 0px;
+        border: 2px solid   rgb(161, 118, 202);
+        border-radius: 4px ;
+        background-color: rgb(18, 18, 62);
+        color: white;
+        cursor: pointer;
+    }
+    .buttons .btn a{
+      
+        text-decoration: none;
+        color: white;
+
+    }
+
+    .leftSection .btn:hover{
+     color: rgb(178, 178, 231);
+     
+    }
+    .rightSection img{
+        width: 80%;
+        
+}
+.purple{
+    color: rgb(161, 118, 202);
+    
+}
+.textGray{
+    color: gray;
+}
+#element{
+    color: rgb(161, 118, 202);
+    
+    
+}
+.secondSection{
+    width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+.secondSection h1{
+    font-size: 1.9rem;
+
+}
+.secondSection .box{
+    background: white;
+    width: 80vw;
+    height: 2px ;
+    margin: 56px 0px ;
+    display: flex;
+}
+.secondSection .vertical{
+    height: 94px;
+    width: 1px;
+    background-color: white;
+    margin: 0px 100px ;
+}
+main hr{
+    border: 0px;
+    height: 1.2px;
+    background-color:  white;
+    margin:30px 85px ;
+}
+.imageTop{
+    width: 30px;
+    position: relative;
+    top: -35px ;
+    left: -15px ;
+
+}
+.verticalTitle{
+    position: relative;
+    top: 75px;
+    width: 150px;
+    /* font-size: 14px; */
+}
+.verticalDiscription{
+    position: relative;
+    top: 85px;
+    color: gray;
+    width: 150px ;
+    font-size: 9px;
+}
+
+/* this is only to be added when we have more data to add  */
+
+ .box2{
+
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 310px 0px;  
+    /* margin-top: 300px ; */
+    /*it can be done like this as well and this class is only to be added when past experience is alot more and we have to add another row*/ 
+    display: flex; 
+ } 
+ footer{
+    background-color: rgb(18, 18, 62);
+    /* height: 233px; */ 
+    /* it was added initially and now its been removed if we have less or have more data in footer we can utilize this */
+ }
+ .footer{
+    display: flex;
+    margin-top: 200px;
+    margin-left: 100px ;
+    /* margin: 51px 100px; */
+    padding: 23px 0px ;
+    justify-content: space-evenly;
+    
+ } 
+ .footer > div{
+    width: 223px ;
+ }
+ footer ul{
+    list-style: none;
+    /* display: flex; */ 
+    /* it can be done to make all  the list item horizontal like a nav bar */
+    
+ }
+ footer .footerRights{
+    padding: 12px 12px ;
+    justify-content: center;
+    display: flex;
+    color: gray;
+ }
+
+
+
